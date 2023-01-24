@@ -29,4 +29,16 @@ font-family: 'Work Sans', sans-serif; */
     position: relative;
     margin-top: -599px;
 } */
-        /* Faq section */
+        /* footer */
+        .email{
+            background-color: #B68C5A;
+            color: white;
+            height: 39px;
+            width: 60px;
+            text-align: center;
+            padding: 13px;
+           margin-left: 166px;
+           margin-top: -39px;
+           
+           
+        }
