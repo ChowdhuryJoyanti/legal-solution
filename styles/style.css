@@ -1,0 +1,21 @@
+body{
+    font-family: 'EB Garamond', serif;
+    /* font-family: 'Poppins', sans-serif; */
+   
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+}
+.consultation{
+    background-color: #B68C5A;
+}
+
+/* banner section */
+.banner{
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.effective-solutioin{
+    margin: 169px;
+    margin-left: 300px;
+}
