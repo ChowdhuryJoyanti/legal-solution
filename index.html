@@ -21,7 +21,7 @@
 <body>
     <header>
             <!-- nav section -->
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-sm navbar-expand-lg">
                 <div class="container-fluid ps-5 ms-5">
                     <img class="" src="images/logo2.png" alt="">
                   <a class="navbar-brand fw-bold" href="#"></a>
@@ -47,8 +47,14 @@
                         
                       </li>
                     </ul>
-                   
-                      <button class="btn  text-white consultation rounded py-3 px-5" type="submit">Free consultation</button>
+                    <form class="d-flex" role="search">
+                
+                      <button class="btn btn-warning  text-white consultation rounded py-3 px-5" type="button">
+                        <a  class="text-decoration-none text-white" href="#contact-us">Free consultation</a>
+                       </button>
+                    </form>
+                 
+                      
                    
                   </div>
                 </div>
@@ -231,14 +237,14 @@
 
                 </section>
                 <!-- contact us section -->
-                <section class="container mt-5">
+                <section class="container mt-5 contact-us" id="contact-us">
                   <h1 class="text-center">Contact With Us</h1>
                   <p class=" text-center text-secondary">There are many variations of practice area whrere the famous lawyer;s are available.
                     but the majority have their own their personal office. <br>If you want you can contact with us.</p>
                   <div class="row mt-5">
                     <div class=" col-sm-1 col-md-2 col-lg-6">
                       <div class="container text-center p-2">
-                        <div class="row row-cols-2 mt-3">
+                        <div class="row row-cols-1 row-cols-sm-2 mt-3">
                           <div class="col bg-light p-3 border-end border-bottom">
                             <img src="images/location.png" alt="">
                                 <h5>Address</h5>
@@ -267,35 +273,6 @@
                         </div>
                       </div>
 
-
-
-
-                            <!-- <div class="col">
-                              <div class="bg-light text-center">
-                                <img src="images/location.png" alt="">
-                                <h5>Address</h5>
-                                <p>A108 Adam Street,,<br>
-                                  New York, NY 535022</p>
-                              </div>
-                                    <div class=" col bg-light text-center">
-                                      <img src="images/location.png" alt="">
-                                      <h5>Address</h5>
-                                      <p>A108 Adam Street,,<br>
-                                        New York, NY 535022</p>
-                                    </div>
-                                    <div class=" col bg-light text-center">
-                                      <img src="images/location.png" alt="">
-                                      <h5>Address</h5>
-                                      <p>A108 Adam Street,,<br>
-                                        New York, NY 535022</p>
-                                    </div>
-                                    <div class=" col bg-light text-center">
-                                      <img src="images/location.png" alt="">
-                                      <h5>Address</h5>
-                                      <p>A108 Adam Street,,<br>
-                                        New York, NY 535022</p>
-                                    </div>
-                            </div> -->
                           </div>
                           <div class="col-6">
                             
@@ -319,7 +296,7 @@
                           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Messages"></textarea>
                         </div>
           
-                        <button class="btn  text-white consultation rounded py-3 px-5 w-100" type="submit">Send Messages</button>
+                        <button class="btn  text-white consultation rounded py-3 px-5 mb-2 w-100" type="submit">Send Messages</button>
                       </form>
 
                     </div>
@@ -329,39 +306,40 @@
 
     </main>
     <footer>
-              <!-- footer section  -->
-              <section class="container bg-dark d-flex d-sm-flex d-md-flex m-2 mx-auto">
-                <div class="p-5">
-                  <img class="p-3" src="images/logo.png" alt="">
-                  
-                    <p class=" text-light">There are many variations of <br>practice area whrere the <br>famous lawyer;s are available.
-                      but the majority have <br>their own their personal office. <br>If you want you can contact with us.</p>
+              <div class="container text-center bg-dark px-5  py-5 mx-auto">
+                <div class="row row-cols-1 row-cols-sm-2">
+                  <div class="col col-sm-1 col-md-2 col-lg-3">
+                    <img class="p-3" src="images/logo.png" alt="">
+                    
+                    <p class=" text-light align-items-center">There are many variations of <br>practice area whrere the <br>famous lawyer;s are available.
+                      but the <br>majority have their own their personal office. <br>If you want you can contact with us.</p>
 
+                  </div>
+                  <div class="col col-sm-1 col-md-2 col-lg-3 ">
+                    <h4 class="text-light">Useful Link</h4>
+                    <p><a class="text-light text-decoration-none" href="">Home</a></p>
+                     <p> <a class="text-light text-decoration-none" href="">About Us</a></p>
+                    <p><a class="text-light text-decoration-none"href="">Cases</a></p>
+                    <p><a class="text-light text-decoration-none"href="">Blog</a></p>
+                     <p> <a class="text-light text-decoration-none" href="">Contact Us</a></p>
+                  </div>
+                  <div class="col col-sm-1 col-md-2 col-lg-3">
+                    <h3 class="text-light ">Contact Now</h3>
+                    <p class="text-light">555 4th 5t NW, Washington<br>
+                      DC 20530, United States</p>
+                      <p class="text-light">+88 01750 000 000<br>
+                        +88 01750 000 000</p>
+                        <p class="text-light">info@gmail.com<br>
+                          info@gmail.com</p>
+                  </div>
+                  <div class="col col-sm-1 col-md-2 col-lg-3">
+                    <h3 class="text-light p-3">Subscribe</h3>
+                    <p class="text-light p-3">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                    <input type="email" class="form-control bg-light  position-relative w-75" id="exampleInputEmail1" aria-describedby="emailHelp " placeholder="Email address"> <i class="fa-regular fa-paper-plane email position-absolute"></i>
+
+                  </div>
                 </div>
-                <div class="p-3 mt-5 ">
-                  <h4 class="text-light">Useful Link</h4>
-                <p><a class="text-light text-decoration-none" href="">Home</a></p>
-                 <p> <a class="text-light text-decoration-none" href="">About Us</a></p>
-                <p><a class="text-light text-decoration-none"href="">Cases</a></p>
-                <p><a class="text-light text-decoration-none"href="">Blog</a></p>
-                 <p> <a class="text-light text-decoration-none" href="">Contact Us</a></p>
-                 
-                </div>
-                <div class="p-5">
-                  <h3 class="text-light ">Contact Now</h3>
-                  <p class="text-light">555 4th 5t NW, Washington<br>
-                    DC 20530, United States</p>
-                    <p class="text-light">+88 01750 000 000<br>
-                      +88 01750 000 000</p>
-                      <p class="text-light">info@gmail.com<br>
-                        info@gmail.com</p>
-                </div>
-                <div class="p-5">
-                  <h3 class="text-light p-3">Subscribe</h3>
-                  <p class="text-light p-3">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
-                  <input type="email" class="form-control bg-light  position-relative w-50" id="exampleInputEmail1" aria-describedby="emailHelp " placeholder="Email address"> <i class="fa-regular fa-paper-plane email position-absolute"></i>
-                </div> 
-              </section>
+              </div>
 
     </footer>
 
